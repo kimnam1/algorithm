@@ -1,0 +1,10 @@
+adddd = input()
+aaddd = adddd.split(' ')
+aa = int(aaddd[0])
+ab = int(aaddd[1])
+ac = int(aaddd[2])
+
+print((aa+ab)%ac)
+print((aa%ac+ab%ac)%ac)
+print((aa*ab)%ac)
+print(((aa%ac)*(ab%ac))%ac)

@@ -1,0 +1,8 @@
+a = input()
+aa = a.split(' ')
+print(int(aa[0])+int(aa[1]))
+print(int(aa[0])-int(aa[1]))
+print(int(aa[0])*int(aa[1]))
+d = int(int(aa[0])/int(aa[1]))
+print(d)
+print(int(aa[0])%int(aa[1]))
