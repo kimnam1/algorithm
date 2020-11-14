@@ -11,7 +11,7 @@ def detector(x:list):
             moCounter += 1
         else:
             pass
-    if len(x) - moCounter < 2 or moCounter < 1:
+    if (len(x) - moCounter) < 2 or moCounter < 1:
         return False
     else:
         return True
