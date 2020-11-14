@@ -20,4 +20,4 @@ res = combinations(charList, L)
 
 for i in res:
     if detector(list(i)):
-        print(''.join(i))
+        print(''.join(sorted(i)))
